@@ -8,7 +8,7 @@ const LINE_HEADER = {
     Authorization: `Bearer xxxxxx`
 };
 
-const THAIPOST_TOKEN = 'YtSwsWuK4OUMCV4S-YxHYNyVEPKI:YRB%GiUDR0G$M2HeBSIxFKNXGhS5JQJyQxMXCtOdESW@A!Y@XIPiM*ZTTNPOMvFJL+XwWTYg';
+const THAIPOST_TOKEN = 'xxxxx';
 
 exports.NackLineChatbot2WebHook = functions.region(REGION).https.onRequest((req, res) => {
     console.log('Start Webhook');
